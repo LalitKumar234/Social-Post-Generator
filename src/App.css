@@ -63,8 +63,9 @@
 }
 .snippetContent{
   margin-top: 1rem;
-  max-height: 10rem;
-  font: inherit;
+  max-height: 20rem;
+  font-size: 0.95rem;
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
   word-break: break-all;
   white-space: pre-wrap;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './style.css'
-import { BiRename, BiUserPin } from 'react-icons/bi';
+import { BiRename, BiUserPin, BiUserPlus } from 'react-icons/bi';
 import { TiSocialTwitter } from 'react-icons/ti';
 import { PiTextT, PiSelectionBackgroundBold } from 'react-icons/pi';
 import { RiRoundedCorner } from 'react-icons/ri';
@@ -76,7 +76,7 @@ const SideNav = ({ setUserDetails, userDetails }) => {
                         onClick={() => setShow(3)}
                     >
                         <div className='navTitle'>
-                            <BiUserPin size={25} />Profile Pic
+                            <BiUserPlus size={25} />Profile Pic
                         </div>
                         <MdOutlineKeyboardArrowDown size={25} />
                     </div>
