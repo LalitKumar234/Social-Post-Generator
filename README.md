@@ -1,6 +1,6 @@
 ### Fake social media post generator
 
-Clone the repo and install all the dependencies by just typing npm install. Try experimenting with this project and add more functionality to it. Make sure to follow me on Instagram and my Instagram handle @frontendedy. Give this repo a star and share this repo with your friends. 
+Clone the repo and install all the dependencies by just typing npm install. Try experimenting with this project and add more functionality to it. Make sure to follow me on Instagram, my Instagram handle is @frontendedy. Give this repo a star and share this repo with your friends. 
 
 Live link: https://social-post-generator.vercel.app/
 
