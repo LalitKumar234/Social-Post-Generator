@@ -1,0 +1,136 @@
+.navContainer {
+    border-bottom: 1px solid rgba(57, 76, 96, .15);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ececec;
+
+}
+.navInner {
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.downloadBtn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    padding: 0.7rem 2rem;
+    background-color: rgb(72, 124, 255);
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+.logo{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.logo span{
+    color: rgb(72, 124, 255);
+    font-weight: 400;
+}
+.downloadBtn:hover{
+    background-color: rgb(42, 102, 255);
+}
+.sideNavContainer {
+    position: fixed;
+    top: 5rem;
+    height: 100vh;
+    width: 22rem;
+    border-right: 1px solid rgba(57, 76, 96, .15);
+}
+
+.navItems {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.navItems li {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    flex-direction: column;
+    text-transform: capitalize;
+    /* border: 1px solid red; */
+    width: calc(100% - 2rem);
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgb(133, 133, 133, 0.2);
+}
+
+.navItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.innerNavItems {
+    width: 100%;
+}
+
+.dropDown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+}
+
+.dropDown li {
+    padding: 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+.dropDown li:hover,
+.active {
+    background-color: rgb(116, 156, 255);
+    color: white;
+}
+
+.bgColors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-height: 15rem;
+    overflow-y: auto;
+}
+
+.bgColor {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 5px;
+}
+@media screen and (max-width: 480px){
+    .sideNavContainer{
+      position: unset;
+      width: auto;
+      margin-top: 8rem;
+    }
+    .bgColor{
+        width: 9rem;
+    }
+  }
